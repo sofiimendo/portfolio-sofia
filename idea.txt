@@ -1,0 +1,10 @@
+Mi idea para el proyecto final es mejorar el portfolio que realicé en 2023.
+El objetivo es actualizarlo y reorganizarlo aplicando los contenidos que vayamos viendo
+durante la cursada de Frontend.
+
+El portfolio funciona como una presentación personal, donde muestro quién soy, qué estoy
+aprendiendo y algunos de los proyectos realizados. La idea es ir mejorándolo de a poco,
+tanto en estructura como en lo visual, a medida que avance el curso.
+
+El link para acceder al portfolio es:
+https://sofiimendo.github.io/portafolio-proyecto/

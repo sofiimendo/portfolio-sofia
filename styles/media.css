@@ -1,0 +1,246 @@
+@media (max-width: 1024px) {
+    .containerHola {
+        gap: 2rem;
+    }
+
+    .contactameEscribime {
+        flex-direction: column;
+    }
+
+    .contactoForm {
+        width: 100%;
+        padding: 2.5rem 2rem;
+    }
+
+    .conocimientos {
+        width: calc(33.333% - 1rem);
+    }
+
+    .proyects {
+        width: calc(50% - 1rem);
+    }
+
+    .imgProyectos {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerNav {
+        padding: 0.9rem 1rem;
+    }
+
+    .nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+        margin-right: 0;
+    }
+
+    .navColor {
+        font-size: 0.82rem;
+        padding: 0.65rem 0.85rem;
+    }
+
+    .contacto,
+    .btnNav {
+        padding: 0.7rem 1rem;
+    }
+
+    .section {
+        padding: 5.5rem 1rem 4.5rem;
+    }
+
+    .containerHola {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .textoHola,
+    .containerImagenHola {
+        width: 100%;
+    }
+
+    .textoHola {
+        align-items: center;
+        text-align: center;
+    }
+
+    .presentacion {
+        font-size: 1.5rem;
+    }
+
+    .descripcion {
+        font-size: 1.05rem;
+    }
+
+    .pmobile {
+        margin-bottom: 2rem;
+    }
+
+    .conocimientos {
+        width: calc(50% - 0.75rem);
+        min-width: 150px;
+        min-height: 180px;
+    }
+
+    .fontSize {
+        font-size: 4rem;
+    }
+
+    .fa-quote-right {
+        font-size: 4rem;
+    }
+
+    .quoteText {
+        font-size: 1.15rem;
+    }
+
+    .quoteMobile {
+        font-size: 1.2rem;
+    }
+
+    .proyects {
+        width: 100%;
+        min-width: unset;
+        min-height: auto;
+        padding: 1.75rem 1.2rem;
+    }
+
+    .imgProyectos {
+        width: 140px;
+        height: 95px;
+    }
+
+    .titleProyectos {
+        font-size: 1rem;
+    }
+
+    .descProyecto {
+        font-size: 0.92rem;
+    }
+
+    .nombreApellido {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .iconosRedes {
+        gap: 0.8rem;
+    }
+
+    .ulIconos {
+        max-width: 280px;
+    }
+
+    .contactoParrafo,
+    .contactoForm h2 {
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        display: none;
+    }
+
+    .section {
+        padding: 4rem 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .name {
+        font-size: 2.7rem;
+    }
+
+    .presentacion {
+        font-size: 1.3rem;
+    }
+
+    .descripcion {
+        font-size: 1rem;
+    }
+
+    .botonLoQueHago {
+        width: 100%;
+        max-width: 260px;
+    }
+
+    .conocimientos {
+        width: 100%;
+    }
+
+    .fontSize {
+        font-size: 3.6rem;
+    }
+
+    .titleCards {
+        font-size: 1rem;
+    }
+
+    .contactoForm {
+        padding: 2rem 1.2rem;
+    }
+
+    .iconosRedes {
+        align-items: flex-start;
+    }
+
+    .iconosLi {
+        gap: 0.65rem;
+    }
+
+.fontIcon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    min-height: 42px;
+    font-size: 1.1rem;
+}
+
+    .ulIconos {
+        max-width: 240px;
+    }
+
+    .medidasIconos {
+        width: 48px;
+        height: 48px;
+    }
+
+    .sizeIcons {
+        font-size: 1.2rem;
+    }
+
+    .txtFooter {
+        font-size: 0.88rem;
+    }
+
+    .imgProyectos {
+        width: 125px;
+        height: 85px;
+    }
+
+    .descProyecto {
+        font-size: 0.9rem;
+    }
+
+    .techProyecto {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    input,
+    textarea {
+        font-size: 0.95rem;
+        padding: 0.9rem 1rem;
+    }
+
+    .botonEnviar {
+        width: 100%;
+    }
+}

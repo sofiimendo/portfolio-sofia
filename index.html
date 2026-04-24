@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sofia Mendoza | Frontend Developer</title>
+    <meta name="description"
+        content="Portfolio de Sofia Mendoza, desarrolladora en formación con conocimientos en Python, HTML, CSS y JavaScript.">
+    <meta name="author" content="Sofia Mendoza">
+
+    <meta property="og:title" content="Sofia Mendoza | Portfolio">
+    <meta property="og:description"
+        content="Conocé mis proyectos, tecnologías y formas de contacto en mi portfolio personal.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/images/preview.png">
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/hola.css">
+    <link rel="stylesheet" href="styles/conocimientos.css">
+    <link rel="stylesheet" href="styles/quote.css">
+    <link rel="stylesheet" href="styles/proyectos.css">
+    <link rel="stylesheet" href="styles/contacto.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/media.css">
+
+    <link rel="shortcut icon" href="./cerdito.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="containerNav" aria-label="Navegación principal">
+            <ul class="nav">
+                <li><a class="navColor" href="#Hola">HOLA</a></li>
+                <li><a class="navColor" href="#Conocimientos">CONOCIMIENTOS</a></li>
+                <li><a class="navColor" href="#Proyectos">PROYECTOS</a></li>
+                <li><a class="navColor contacto btnNav" href="#Contactos">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section" id="Hola">
+            <div class="containerHola fadeIn">
+                <div class="textoHola">
+                    <p class="presentacion">Hola, soy</p>
+                    <h1 class="name">Sofia Mendoza</h1>
+
+                    <p class="descripcion descripcionPrincipal">
+                        Desarrolladora en formación creando experiencias web modernas.
+                    </p>
+
+                    <p class="descripcion Boca">
+                        Trabajo con Python, HTML, CSS y JavaScript, combinando lógica de programación,
+                        diseño responsivo y buenas prácticas para construir soluciones claras y funcionales.
+                    </p>
+
+                    <a class="botonLoQueHago" href="#Proyectos">Ver proyectos</a>
+                </div>
+
+                <div class="containerImagenHola">
+                    <img class="imagenHola" src="./assets/images/imgHola.svg"
+                        alt="Ilustración de presentación de Sofia Mendoza">
+                </div>
+            </div>
+        </section>
+
+        <section class="section background" id="Conocimientos">
+            <div class="containerConocimientos fadeIn">
+                <div class="textoConocimientos">
+                    <h2>Tecnologías y habilidades</h2>
+                    <p class="pmobile">
+                        Cuento con conocimientos en desarrollo web y programación, aplicando buenas prácticas
+                        de maquetado, organización del código y resolución de problemas. Trabajo con distintas
+                        tecnologías tanto en frontend como en desarrollo con Python.
+                    </p>
+                </div>
+
+                <div class="cards">
+                    <div class="cardsProyect conocimientos">
+                        <i class="fontSize fab fa-html5" aria-hidden="true"></i>
+                        <p class="titleCards">HTML 5</p>
+                    </div>
+
+                    <div class="cardsProyect conocimientos">
+                        <i class="fontSize fab fa-css3-alt" aria-hidden="true"></i>
+                        <p class="titleCards">CSS 3</p>
+                    </div>
+
+                    <div class="cardsProyect conocimientos">
+                        <i class="fontSize fab fa-sass" aria-hidden="true"></i>
+                        <p class="titleCards">Sass</p>
+                    </div>
+
+                    <div class="cardsProyect conocimientos">
+                        <i class="fontSize fab fa-js" aria-hidden="true"></i>
+                        <p class="titleCards">JavaScript</p>
+                    </div>
+
+                    <div class="cardsProyect conocimientos">
+                        <i class="fontSize fab fa-react" aria-hidden="true"></i>
+                        <p class="titleCards">React</p>
+                    </div>
+
+                    <div class="cardsProyect conocimientos">
+                        <i class="fontSize fab fa-git-alt" aria-hidden="true"></i>
+                        <p class="titleCards">Git</p>
+                    </div>
+
+                    <div class="cardsProyect conocimientos">
+                        <i class="fontSize fab fa-python" aria-hidden="true"></i>
+                        <p class="titleCards">Python</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section pinkBackground" aria-label="Llamado a la acción">
+            <div class="containerQuote fadeIn">
+                <h2 class="quoteMobile">¿Trabajamos juntos?</h2>
+
+                <p class="quoteText">
+                    Estoy en búsqueda de oportunidades para seguir creciendo como desarrolladora.
+                    Si te interesa mi perfil o querés contactarme, podés escribirme directamente.
+                </p>
+
+                <a href="#Contactos" class="botonLoQueHago">
+                    Contactarme
+                </a>
+            </div>
+        </section>
+
+        <section class="section" id="Proyectos">
+            <div class="container fadeIn">
+                <h2>Mis proyectos</h2>
+                <p class="pmobile">
+                    Estos proyectos reflejan mi proceso de formación y práctica en desarrollo, combinando lógica,
+                    maquetado web, programación y trabajo con distintas tecnologías.
+                </p>
+
+                <div class="proyectos">
+                    <a href="#Hola" class="cards cardsProyect proyects" aria-label="Ver proyecto Portfolio">
+                        <img class="imgProyectos" src="./assets/images/imgHola.svg"
+                            alt="Vista previa del proyecto Portfolio">
+                        <h4 class="titleProyectos">Portfolio</h4>
+                        <p class="descProyecto">
+                            Sitio web personal desarrollado para presentar mi perfil profesional, tecnologías,
+                            proyectos y medios de contacto con una estructura clara y diseño responsivo.
+                        </p>
+                        <span class="techProyecto">HTML · CSS</span>
+                    </a>
+
+                    <a href="https://tete-paez.github.io/editor-de-memes/" target="_blank" rel="noopener noreferrer"
+                        class="cards cardsProyect proyects"
+                        aria-label="Abrir proyecto Generador de Memes en una nueva pestaña">
+                        <img class="imgProyectos" src="./assets/images/creadorMemes.svg"
+                            alt="Vista previa del proyecto Generador de Memes">
+                        <h4 class="titleProyectos">Generador de Memes</h4>
+                        <p class="descProyecto">
+                            Aplicación web interactiva orientada a la manipulación de imágenes y texto, con foco
+                            en la experiencia de usuario y el uso dinámico de herramientas del navegador.
+                        </p>
+                        <span class="techProyecto">HTML · CSS · JavaScript</span>
+                    </a>
+
+                    <a href="https://github.com/sofiimendo/proyecto_adivina_la_palabra" target="_blank"
+                        rel="noopener noreferrer" class="cards cardsProyect proyects"
+                        aria-label="Abrir proyecto Adivina la Palabra en una nueva pestaña">
+                        <img class="imgProyectos" src="./assets/images/adivina-palabra.svg"
+                            alt="Vista previa del proyecto Adivina la Palabra">
+                        <h4 class="titleProyectos">Adivina la Palabra</h4>
+                        <p class="descProyecto">
+                            Juego desarrollado en Python aplicando lógica de programación, validación de entradas,
+                            estructuras de control y organización modular del código.
+                        </p>
+                        <span class="techProyecto">Python</span>
+                    </a>
+
+                    <a href="https://github.com/sofiimendo/catalogo_peliculas_proyecto_final_grupal" target="_blank"
+                        rel="noopener noreferrer" class="cards cardsProyect proyects"
+                        aria-label="Abrir proyecto Buscador de Películas en una nueva pestaña">
+                        <img class="imgProyectos" src="./assets/images/buscador-peliculas.svg"
+                            alt="Vista previa del proyecto Buscador de Películas">
+                        <h4 class="titleProyectos">Buscador de Películas</h4>
+                        <p class="descProyecto">
+                            Proyecto grupal realizado en Python orientado a la gestión y consulta de datos,
+                            aplicando programación modular, trabajo colaborativo y control de versiones con Git.
+                        </p>
+                        <span class="techProyecto">Python</span>
+                    </a>
+
+                    <a href="https://github.com/sofiimendo/Grupo_2_Mendoza_ValdezAguilar" target="_blank"
+                        rel="noopener noreferrer" class="cards cardsProyect proyects"
+                        aria-label="Abrir proyecto Gestión de Biblioteca en una nueva pestaña">
+                        <img class="imgProyectos" src="./assets/images/gestion-biblioteca.svg"
+                            alt="Vista previa del proyecto Gestión de Biblioteca">
+                        <h4 class="titleProyectos">Gestión de Biblioteca</h4>
+                        <p class="descProyecto">
+                            Sistema desarrollado con JavaScript para la administración de libros y registros,
+                            integrando estructuras de datos, funciones y resolución de problemas.
+                        </p>
+                        <span class="techProyecto">JavaScript</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="background containerformulario" id="Contactos">
+            <section class="contactameEscribime fadeIn">
+                <div class="contactoForm">
+                    <h2>Contacto</h2>
+                    <p class="contactoParrafo pmobile">
+                        Podés encontrarme en mis redes profesionales o escribirme directamente por correo para
+                        consultas, propuestas o colaboraciones.
+                    </p>
+
+                    <div class="contactameRedes">
+                        <ul class="iconosRedes">
+
+                            <li class="iconosLi">
+                                <span class="fontIcon">
+                                    <i class="fab fa-github-alt" aria-hidden="true"></i>
+                                </span>
+                                <a href="https://github.com/sofiimendo" target="_blank" rel="noopener noreferrer"
+                                    class="colorRedes">SofiiMendo</a>
+                            </li>
+
+                            <li class="iconosLi">
+                                <span class="fontIcon">
+                                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                </span>
+                                <a href="https://www.linkedin.com/in/sofia-macarena-mendoza/" target="_blank"
+                                    rel="noopener noreferrer" class="colorRedes">SofiaMendoza</a>
+                            </li>
+
+                            <li class="iconosLi">
+                                <span class="fontIcon">
+                                    <i class="far fa-envelope" aria-hidden="true"></i>
+                                </span>
+                                <a href="mailto:sofimmendoza@gmail.com" class="colorRedes">sofimmendoza@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contactoForm">
+                    <h2>Escribime</h2>
+
+                    <form class="contactameForm">
+                        <div class="nombreApellido">
+                            <div class="nombreForm formMobile">
+                                <label for="nombre">Nombre *</label>
+                                <input class="inputsize" type="text" id="nombre" name="nombre"
+                                    placeholder="Ingresá tu nombre" required>
+                            </div>
+
+                            <div class="nombreForm formMobile">
+                                <label for="apellido">Apellido *</label>
+                                <input type="text" id="apellido" name="apellido" placeholder="Ingresá tu apellido"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="email formMobile">
+                            <label class="fontsize-email" for="mail">Email *</label>
+                            <input type="email" id="mail" name="mail" placeholder="Ingresá tu mail" required>
+                        </div>
+
+                        <div class="containerMensaje">
+                            <label class="mensaje-bold" for="idComentarios">Mensaje *</label>
+                            <textarea class="containerComentario" id="idComentarios" name="mensaje" cols="30" rows="10"
+                                maxlength="100" placeholder="Escribí tu mensaje acá" required></textarea>
+                        </div>
+
+                        <button type="submit" class="botonEnviar">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </section>
+
+        <footer class="footer pinkBackground">
+            <nav class="navFooter" aria-label="Navegación del pie de página">
+                <ul class="nav">
+                    <li><a class="navFooter" href="#Hola">HOLA</a></li>
+                    <li><a class="navFooter" href="#Conocimientos">CONOCIMIENTOS</a></li>
+                    <li><a class="navFooter" href="#Proyectos">PROYECTOS</a></li>
+                    <li><a class="navFooter" href="#Contactos">CONTACTO</a></li>
+                </ul>
+            </nav>
+
+            <ul class="ulIconos">
+                <li>
+                    <a href="https://github.com/sofiimendo" target="_blank" rel="noopener noreferrer"
+                        class="medidasIconos colorRedes" aria-label="Ir al perfil de GitHub de Sofia Mendoza">
+                        <i class="sizeIcons fab fa-github-alt" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/sofia-macarena-mendoza/" target="_blank"
+                        rel="noopener noreferrer" class="medidasIconos colorRedes"
+                        aria-label="Ir al perfil de LinkedIn de Sofia Mendoza">
+                        <i class="sizeIcons fab fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mailto:sofimmendoza@gmail.com" class="medidasIconos colorRedes"
+                        aria-label="Enviar un email a Sofia Mendoza">
+                        <i class="sizeIcons far fa-envelope" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="txtFooter">
+                Desarrollado por Sofia Mendoza
+            </span>
+        </footer>
+    </main>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
+        integrity="sha384-vuFJ2JiSdUpXLKGK+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

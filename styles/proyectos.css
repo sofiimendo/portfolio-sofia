@@ -1,0 +1,79 @@
+.proyectos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.proyects {
+    width: calc(33.333% - 1rem);
+    min-width: 260px;
+    min-height: 360px;
+    text-align: center;
+    color: inherit;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+/* Hover pro */
+.proyects::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 60%, rgba(217, 90, 167, 0.08));
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.proyects:hover::after {
+    opacity: 1;
+}
+
+.proyects:hover {
+    transform: translateY(-8px) scale(1.02);
+}
+
+.imgProyectos {
+    width: 160px;
+    height: 110px;
+    object-fit: contain;
+    margin-bottom: 0.8rem;
+    transition: var(--transition);
+}
+
+.proyects:hover .imgProyectos {
+    transform: scale(1.05);
+}
+
+.titleProyectos {
+    color: var(--color-text);
+    font-size: 1.12rem;
+    font-weight: 800;
+    margin-top: 0.3rem;
+}
+
+.descProyecto {
+    font-size: 0.95rem;
+    color: var(--color-text-soft);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.techProyecto {
+    display: inline-block;
+    margin-top: auto;
+    padding: 0.45rem 0.9rem;
+    border-radius: var(--radius-pill);
+    background-color: var(--color-primary-soft);
+    color: var(--color-primary-dark);
+    font-size: 0.82rem;
+    font-weight: 700;
+}

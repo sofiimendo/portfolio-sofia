@@ -1,0 +1,67 @@
+.containerConocimientos {
+    width: 100%;
+    max-width: var(--container-width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textoConocimientos {
+    max-width: 760px;
+    margin-bottom: 1rem;
+}
+
+.conocimientos {
+    background-color: var(--color-white);
+    min-height: 220px;
+    width: calc(25% - 1rem);
+    min-width: 180px;
+}
+
+.conocimientos:hover {
+    opacity: 1;
+}
+
+.titleCards {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: var(--color-text);
+}
+
+.fontSize {
+    font-size: 4.6rem;
+    margin: 0;
+    transition: var(--transition);
+}
+
+.cardsProyect.conocimientos:hover .fontSize {
+    transform: scale(1.08);
+}
+
+.fa-html5 {
+    color: #e54d26;
+}
+
+.fa-css3-alt {
+    color: #3d8fc6;
+}
+
+.fa-sass {
+    color: #cc6699;
+}
+
+.fa-js {
+    color: #f0db4f;
+}
+
+.fa-react {
+    color: #61dafb;
+}
+
+.fa-git-alt {
+    color: #f34f29;
+}
+
+.fa-python {
+    color: #3776ab;
+}

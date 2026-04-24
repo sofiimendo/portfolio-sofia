@@ -1,0 +1,213 @@
+.containerformulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 1.5rem 4rem;
+}
+
+.contactameEscribime {
+    width: 100%;
+    max-width: var(--container-width);
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(237, 100, 189, 0.18);
+    border-radius: 28px;
+    box-shadow: 0 16px 40px rgba(237, 100, 189, 0.12);
+    display: flex;
+    overflow: hidden;
+}
+
+.contactoForm {
+    width: 50%;
+    padding: 2.7rem 3rem;
+    text-align: left;
+}
+
+.contactoParrafo {
+    margin-bottom: 2rem;
+}
+
+.contactameRedes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.iconosRedes {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    padding: 0;
+}
+
+.iconosLi {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    transition: var(--transition);
+    animation: fadeIcon 0.6s ease;
+}
+
+.fontIcon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--color-primary-soft);
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    line-height: 1;
+    aspect-ratio: 1 / 1;
+    transition: all 0.35s ease;
+}
+
+.fontIcon svg,
+.fontIcon i {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+    flex-shrink: 0;
+    transition: all 0.35s ease;
+}
+
+.colorRedes {
+    color: var(--color-primary);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.iconosLi:hover .fontIcon {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    transform: translateY(-3px) scale(1.06);
+    box-shadow: 0 10px 20px rgba(237, 100, 189, 0.25);
+}
+
+.iconosLi:hover .fontIcon svg,
+.iconosLi:hover .fontIcon i {
+    transform: scale(1.12);
+}
+
+.iconosLi:hover .colorRedes {
+    color: var(--color-primary-dark);
+}
+
+@keyframes fadeIcon {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contactameForm {
+    width: 100%;
+}
+
+.nombreApellido {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.1rem;
+}
+
+.nombreForm,
+.email,
+.containerMensaje {
+    width: 100%;
+}
+
+.nombreForm,
+.email {
+    font-weight: 700;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.45rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+input,
+textarea {
+    width: 100%;
+    border: 1px solid #f1cce7;
+    border-radius: 18px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 14px rgba(237, 100, 189, 0.08);
+    font-size: 0.98rem;
+    color: var(--color-text);
+    padding: 0.95rem 1.1rem;
+    outline: none;
+    transition: var(--transition);
+    font-family: inherit;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #9a93a5;
+}
+
+input:focus,
+textarea:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 4px rgba(237, 100, 189, 0.12);
+}
+
+.email {
+    margin-bottom: 1.1rem;
+}
+
+.containerMensaje {
+    margin-bottom: 1.3rem;
+}
+
+.containerComentario {
+    min-height: 130px;
+    resize: vertical;
+}
+
+.botonEnviar {
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: var(--radius-pill);
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.95rem 2rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.botonEnviar::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: 0.6s;
+}
+
+.botonEnviar:hover::after {
+    left: 100%;
+}
+
+.botonEnviar:hover {
+    background-color: var(--color-primary-dark);
+    transform: translateY(-2px);
+}
