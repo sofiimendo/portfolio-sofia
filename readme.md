@@ -40,7 +40,7 @@ El objetivo fue crear una landing page moderna, responsiva y profesional donde p
 
 ## 🌐 Deploy
 
-👉 [Ver sitio online](ACA_VA_LINK)
+👉 [Ver sitio online](https://sofiimendo.github.io/portfolio-sofia/)
 
 ---
 
