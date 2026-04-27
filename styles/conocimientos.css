@@ -16,56 +16,75 @@
     min-height: 220px;
     width: calc(25% - 1rem);
     min-width: 180px;
+    position: relative;
+    overflow: hidden;
 }
 
-.conocimientos:hover {
-    opacity: 1;
-}
-
-.titleCards {
-    font-size: 1.15rem;
-    font-weight: 800;
-    color: var(--color-text);
-}
-
+/* ICONOS */
 .fontSize {
     font-size: 4.6rem;
     margin: 0;
-    transition: var(--transition);
+    transition: all 0.3s ease;
+    color: var(--color-primary);
 }
 
+/* HOVER GENERAL */
+.cardsProyect.conocimientos:hover {
+    transform: translateY(-6px);
+    border-color: var(--color-primary);
+    box-shadow: 0 16px 36px rgba(237, 100, 189, 0.25);
+}
+
+/* ICON SCALE */
 .cardsProyect.conocimientos:hover .fontSize {
     transform: scale(1.08);
 }
 
-.fa-html5 {
+/* 🎨 COLORES REALES EN HOVER */
+
+.cardsProyect.conocimientos:hover .fa-html5 {
     color: #e54d26;
 }
 
-.fa-css3-alt {
+.cardsProyect.conocimientos:hover .fa-css3-alt {
     color: #3d8fc6;
 }
 
-.fa-sass {
+.cardsProyect.conocimientos:hover .fa-sass {
     color: #cc6699;
 }
 
-.fa-js {
+.cardsProyect.conocimientos:hover .fa-js {
     color: #f0db4f;
 }
 
-.fa-react {
+.cardsProyect.conocimientos:hover .fa-react {
     color: #61dafb;
 }
 
-.fa-git-alt {
+.cardsProyect.conocimientos:hover .fa-git-alt {
     color: #f34f29;
 }
 
-.fa-node-js {
+.cardsProyect.conocimientos:hover .fa-python {
+    color: #3776ab;
+}
+
+.cardsProyect.conocimientos:hover .fa-node-js {
     color: #68a063;
 }
 
-.fa-python {
-    color: #3776ab;
+/* ✨ EFECTO GLOW ROSA */
+
+.conocimientos::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top, rgba(237, 100, 189, 0.15), transparent 70%);
+    opacity: 0;
+    transition: 0.4s ease;
+}
+
+.cardsProyect.conocimientos:hover::before {
+    opacity: 1;
 }
