@@ -20,7 +20,6 @@
     overflow: hidden;
 }
 
-/* ICONOS */
 .fontSize {
     font-size: 4.6rem;
     margin: 0;
@@ -28,19 +27,15 @@
     color: var(--color-primary);
 }
 
-/* HOVER GENERAL */
 .cardsProyect.conocimientos:hover {
     transform: translateY(-6px);
     border-color: var(--color-primary);
     box-shadow: 0 16px 36px rgba(237, 100, 189, 0.25);
 }
 
-/* ICON SCALE */
 .cardsProyect.conocimientos:hover .fontSize {
     transform: scale(1.08);
 }
-
-/* 🎨 COLORES REALES EN HOVER */
 
 .cardsProyect.conocimientos:hover .fa-html5 {
     color: #e54d26;
@@ -74,13 +69,13 @@
     color: #68a063;
 }
 
-/* ✨ EFECTO GLOW ROSA */
-
 .conocimientos::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: radial-gradient(circle at top, rgba(237, 100, 189, 0.15), transparent 70%);
+    background: radial-gradient(circle at top,
+            rgba(237, 100, 189, 0.15),
+            transparent 70%);
     opacity: 0;
     transition: 0.4s ease;
 }
