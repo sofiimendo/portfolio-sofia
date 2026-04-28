@@ -46,7 +46,7 @@ La página incluye las siguientes secciones:
 
 ## 🌐 Deploy
 
-👉 [Ver sitio online](https://sofiimendo.github.io/portfolio-sofia/)
+👉 [Ver sitio online](https://sofiimendo.github.io/sofia-mendoza-portfolio/)
 
 ---
 
