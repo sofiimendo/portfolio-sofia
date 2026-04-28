@@ -1,10 +1,24 @@
 # 💗 Portfolio - Sofia Mendoza
 
-## ✨ Sobre el proyecto
+## 📌 Descripción
 
-Este proyecto es mi portfolio personal, desarrollado como trabajo final del modulo dos del curso de Frontend.
+Este proyecto consiste en una landing page desarrollada como trabajo práctico final del modulo dos del curso de Frontend.
 
-El objetivo fue crear una landing page moderna, responsiva y profesional donde presentar mi perfil como desarrolladora, mis conocimientos y proyectos.
+El objetivo fue diseñar y construir un portfolio personal aplicando buenas prácticas de maquetado, estilos y organización del código, respetando criterios de diseño, accesibilidad y responsividad.
+
+---
+
+## 🧩 Estructura del sitio
+
+La página incluye las siguientes secciones:
+
+- Header con navegación interna
+- Presentación personal
+- Tecnologías y habilidades
+- Sección destacada (llamado a la acción)
+- Grilla de proyectos
+- Formulario de contacto
+- Footer con enlaces y redes
 
 ---
 
@@ -12,29 +26,21 @@ El objetivo fue crear una landing page moderna, responsiva y profesional donde p
 
 - HTML5
 - CSS3
-- JavaScript (proyectos)
-- Python (proyectos)
+- JavaScript (en proyectos)
+- Node.js (en proyectos)
+- Python (en proyectos)
 - Git & GitHub
 
 ---
 
-## 🚀 Secciones del sitio
+## 🚀 Proyectos incluidos
 
-- 👋 Presentación personal
-- 🧠 Tecnologías y habilidades
-- 💼 Proyectos
-- 📬 Contacto
-- 🔗 Footer con redes
-
----
-
-## 🧩 Proyectos incluidos
-
-- Portfolio personal
-- Generador de Memes (HTML, CSS, JS)
-- Adivina la Palabra (Python)
-- Buscador de Películas (Python)
-- Gestión de Biblioteca (JavaScript)
+- Portfolio personal — HTML y CSS
+- Generador de Memes — HTML, CSS y JavaScript
+- Adivina la Palabra — Python
+- Buscador de Películas — Python
+- Gestión de Biblioteca — JavaScript
+- Book API — Node.js y API REST
 
 ---
 
@@ -44,23 +50,17 @@ El objetivo fue crear una landing page moderna, responsiva y profesional donde p
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Objetivo del proyecto
 
-Continuar creciendo como desarrolladora, incorporando nuevas tecnologías y evolucionando hacia un perfil Full Stack.
+Aplicar los conocimientos adquiridos en el curso para desarrollar una interfaz web funcional, responsive y visualmente coherente, simulando un portfolio profesional.
 
 ---
 
 ## 👩‍💻 Autora
 
 **Sofia Mendoza**
-Frontend Developer en formación
+Desarrolladora en formación
 
 📧 sofimmendoza@gmail.com
 💼 [LinkedIn](https://www.linkedin.com/in/sofia-macarena-mendoza/)
 🐙 [GitHub](https://github.com/sofiimendo)
-
----
-
-## 💖 Nota
-
-Este proyecto refleja mi proceso de aprendizaje y evolución dentro del mundo del desarrollo web.
